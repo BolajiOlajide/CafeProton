@@ -1,8 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
+
+// component
+import Container from './components/Container';
+
+// styles
 import "./assets/styles.css";
 
 ReactDOM.render(
-  <h1> I'm Working! </h1>,
+  <Container />,
   document.getElementById("app")
 );
