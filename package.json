@@ -44,12 +44,7 @@
   },
   "scripts": {
     "prestart": "node tools/startMessage.js",
-    "start": "npm-run-all --parallel open:src lint:watch test:watch",
-    "open:src": "node tools/server.js",
-    "lint": "node_modules/.bin/esw webpack.config.* src tools",
-    "lint:watch": "npm run lint -- --watch",
-    "test": "mocha --reporter spec tools/testSetup.js \"src/**/*.test.js\"",
-    "test:watch": "npm run test -- --watch"
+    "start": "node tools/server.js"
   },
   "repository": {
     "type": "git",
