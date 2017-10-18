@@ -1,3 +1,7 @@
+* {
+  font-family: 'Noto Serif', serif;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -24,13 +28,25 @@
 }
 
 .barista-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background: #f2d78c;
   width: 25vw;
   height: 70vh;
   color: #000;
 }
 
+.barista-container > h3 {
+  margin: 0;
+}
+
 .machine-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background: #4133d5;
   width: 25vw;
   height: 70vh;

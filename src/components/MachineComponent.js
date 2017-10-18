@@ -9,7 +9,7 @@ class Machine extends Component {
   render() {
     return (
       <div className="machine-container">
-        Barista
+        <h3>Barista</h3>
       </div>
     );
   }

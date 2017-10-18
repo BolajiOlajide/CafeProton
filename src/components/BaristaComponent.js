@@ -9,7 +9,8 @@ class Barista extends Component {
   render() {
     return (
       <div className="barista-container">
-        Barista
+        <h3>HELLO, HOW MAY</h3>
+        <h3>I HELP YOU TODAY?</h3>
       </div>
     );
   }
