@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Customer extends Component {
+class Machine extends Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -8,11 +8,11 @@ class Customer extends Component {
 
   render() {
     return (
-      <div className="customer-container">
-        Customer
+      <div className="machine-container">
+        Barista
       </div>
     );
   }
 }
 
-export default Customer;
+export default Machine;
