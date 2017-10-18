@@ -8,9 +8,10 @@ class Customer extends Component {
     this.eventClass = this.eventClass.bind(this);
   };
 
+
   eventClass(event) {
     const { activeEvent } = this.props;
-    return activeEvent === event ? 'event active' : 'event';
+    return activeEvent === event ? 'event active animated jello' : 'event';
   };
 
   render() {

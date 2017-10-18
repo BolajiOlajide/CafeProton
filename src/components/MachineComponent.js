@@ -9,7 +9,7 @@ class Machine extends Component {
   render() {
     return (
       <div className="machine-container">
-        <h3>Barista</h3>
+        <h3>{this.props.status}</h3>
       </div>
     );
   }
